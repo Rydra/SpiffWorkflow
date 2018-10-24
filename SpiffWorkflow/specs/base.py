@@ -395,6 +395,9 @@ class TaskSpec(object):
                 my_task.task_spec.__class__.__name__,
                 my_task.get_name(), my_task.get_description()))
 
+        self._execute_custom_code(my_task)
+
+        my_task._set_state(Task.COMPLETED)
         self._on_complete_hook(my_task)
 
         # Notify the Workflow.
@@ -406,6 +409,9 @@ class TaskSpec(object):
 
         self.completed_event.emit(my_task.workflow, my_task)
         return True
+
+    def _execute_custom_code(self, my_task):
+        pass
 
     def _on_complete_hook(self, my_task):
         """

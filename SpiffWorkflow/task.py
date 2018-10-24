@@ -244,7 +244,7 @@ class Task(object):
         if dict['thread_id'] >= self.__class__.thread_id_pool:
             self.__class__.thread_id_pool = dict['thread_id']
 
-    def _get_root(self):
+    def _get_root(sef):
         """
         Returns the top level parent.
         """
@@ -586,7 +586,6 @@ class Task(object):
         Called by the associated task to let us know that its state
         has changed (e.g. from FUTURE to COMPLETED.)
         """
-        self._set_state(self.COMPLETED)
         return self.task_spec._on_complete(self)
 
     def trigger(self, *args):
