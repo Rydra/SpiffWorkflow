@@ -190,7 +190,7 @@ class Task(object):
         self.id = uuid4()
         self.thread_id = self.__class__.thread_id_pool
         self.last_state_change = time.time()
-        self.data = {}
+        self.data = workflow.data
         self.internal_data = {}
         if parent is not None:
             self.parent._child_added_notify(self)
@@ -244,7 +244,7 @@ class Task(object):
         if dict['thread_id'] >= self.__class__.thread_id_pool:
             self.__class__.thread_id_pool = dict['thread_id']
 
-    def _get_root(sef):
+    def _get_root(self):
         """
         Returns the top level parent.
         """
