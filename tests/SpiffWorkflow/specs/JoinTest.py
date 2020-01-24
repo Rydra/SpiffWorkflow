@@ -8,8 +8,8 @@ import unittest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 from .TaskSpecTest import TaskSpecTest
-from SpiffWorkflow.specs import Join
-from SpiffWorkflow import Workflow
+from spiffworkflow.specs import Join
+from spiffworkflow import Workflow
 
 
 class JoinTest(TaskSpecTest):

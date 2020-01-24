@@ -3,9 +3,9 @@ from __future__ import print_function, absolute_import, division
 import logging
 import os
 import unittest
-from SpiffWorkflow.task import Task
-from SpiffWorkflow.bpmn.serializer.BpmnSerializer import BpmnSerializer
-from SpiffWorkflow.bpmn.serializer.CompactWorkflowSerializer import CompactWorkflowSerializer
+from spiffworkflow.task import Task
+from spiffworkflow.bpmn.serializer.BpmnSerializer import BpmnSerializer
+from spiffworkflow.bpmn.serializer.CompactWorkflowSerializer import CompactWorkflowSerializer
 from tests.SpiffWorkflow.bpmn.PackagerForTests import PackagerForTests
 
 __author__ = 'matth'

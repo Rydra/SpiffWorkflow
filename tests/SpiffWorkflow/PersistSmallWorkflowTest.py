@@ -5,12 +5,12 @@ import unittest
 import os.path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from SpiffWorkflow import Workflow
-from SpiffWorkflow.specs import *
-from SpiffWorkflow.operators import *
-from SpiffWorkflow.task import Task
-from SpiffWorkflow.specs.Simple import Simple
-from SpiffWorkflow.serializer.dict import DictionarySerializer
+from spiffworkflow import Workflow
+from spiffworkflow.specs import *
+from spiffworkflow.operators import *
+from spiffworkflow.task import Task
+from spiffworkflow.specs.Simple import Simple
+from spiffworkflow.serializer.dict import DictionarySerializer
 
 
 class ASmallWorkflow(WorkflowSpec):

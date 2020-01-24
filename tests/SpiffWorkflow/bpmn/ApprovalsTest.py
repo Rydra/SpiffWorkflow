@@ -3,7 +3,7 @@ from __future__ import print_function, absolute_import, division
 
 from __future__ import division, absolute_import
 import unittest
-from SpiffWorkflow.bpmn.workflow import BpmnWorkflow
+from spiffworkflow.bpmn.workflow import BpmnWorkflow
 from tests.SpiffWorkflow.bpmn.BpmnWorkflowTestCase import BpmnWorkflowTestCase
 
 __author__ = 'matth'

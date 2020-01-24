@@ -5,8 +5,8 @@ from __future__ import division, absolute_import
 import unittest
 import datetime
 import time
-from SpiffWorkflow.task import Task
-from SpiffWorkflow.bpmn.workflow import BpmnWorkflow
+from spiffworkflow.task import Task
+from spiffworkflow.bpmn.workflow import BpmnWorkflow
 from tests.SpiffWorkflow.bpmn.BpmnWorkflowTestCase import BpmnWorkflowTestCase
 
 __author__ = 'matth'

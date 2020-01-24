@@ -1,4 +1,4 @@
-from SpiffWorkflow.serializer.json import JSONSerializer
+from spiffworkflow.serializer.json import JSONSerializer
 from strike import NuclearStrike
 
 class NuclearSerializer(JSONSerializer):

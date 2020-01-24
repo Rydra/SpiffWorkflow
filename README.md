@@ -41,9 +41,9 @@ The process of using Spiff Workflow involves the following steps:
 2. Run the workflow using the Python API. Example code for running the workflow:
 
 ```python
-from SpiffWorkflow.specs import WorkflowSpec
-from SpiffWorkflow.serializer.prettyxml import XmlSerializer
-from SpiffWorkflow import Workflow
+from spiffworkflow.specs import WorkflowSpec
+from spiffworkflow.serializer.prettyxml import XmlSerializer
+from spiffworkflow import Workflow
 
 # Load the workflow specification:
 with open('my_workflow.xml') as fp:

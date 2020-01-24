@@ -9,8 +9,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', '..'))
 
 from tests.SpiffWorkflow.util import run_workflow
 from .TaskSpecTest import TaskSpecTest
-from SpiffWorkflow import Task
-from SpiffWorkflow.specs import Execute
+from spiffworkflow import Task
+from spiffworkflow.specs import Execute
 
 
 class ExecuteTest(TaskSpecTest):

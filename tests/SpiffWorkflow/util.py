@@ -3,7 +3,7 @@ from __future__ import print_function, absolute_import, division
 from builtins import str
 from builtins import range
 import time
-from SpiffWorkflow import Workflow, Task
+from spiffworkflow import Workflow, Task
 
 
 def on_reached_cb(workflow, task, taken_path):

@@ -2,14 +2,14 @@
 from __future__ import print_function, absolute_import, division
 
 from __future__ import division, absolute_import
-from SpiffWorkflow.bpmn.specs.CallActivity import CallActivity
-from SpiffWorkflow.bpmn.specs.EndEvent import EndEvent
-from SpiffWorkflow.bpmn.specs.ExclusiveGateway import ExclusiveGateway
-from SpiffWorkflow.bpmn.specs.UserTask import UserTask
-from SpiffWorkflow.bpmn.parser.BpmnParser import BpmnParser
-from SpiffWorkflow.bpmn.parser.task_parsers import UserTaskParser, EndEventParser, CallActivityParser
-from SpiffWorkflow.bpmn.parser.util import full_tag
-from SpiffWorkflow.operators import Assign
+from spiffworkflow.bpmn.specs.CallActivity import CallActivity
+from spiffworkflow.bpmn.specs.EndEvent import EndEvent
+from spiffworkflow.bpmn.specs.ExclusiveGateway import ExclusiveGateway
+from spiffworkflow.bpmn.specs.UserTask import UserTask
+from spiffworkflow.bpmn.parser.BpmnParser import BpmnParser
+from spiffworkflow.bpmn.parser.task_parsers import UserTaskParser, EndEventParser, CallActivityParser
+from spiffworkflow.bpmn.parser.util import full_tag
+from spiffworkflow.operators import Assign
 
 __author__ = 'matth'
 

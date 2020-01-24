@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function, absolute_import, division
 from builtins import str
-from SpiffWorkflow.specs import *
-from SpiffWorkflow.operators import *
+from spiffworkflow.specs import *
+from spiffworkflow.operators import *
 
 
 class TestWorkflowSpec(WorkflowSpec):

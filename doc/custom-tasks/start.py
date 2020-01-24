@@ -1,6 +1,6 @@
 import json
-from SpiffWorkflow import Workflow
-from SpiffWorkflow.specs import WorkflowSpec
+from spiffworkflow import Workflow
+from spiffworkflow.specs import WorkflowSpec
 from serializer import NuclearSerializer
 
 # Load from JSON

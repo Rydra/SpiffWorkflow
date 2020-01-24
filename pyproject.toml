@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "spiffworkflow"
+version = "1.0.1"
+description = "A workflow framework based on www.workflowpatterns.com"
+authors = ["Samuel Abels <cheeseshop.python.org@debain.org>"]
+repository = "https://github.com/Rydra/SpiffWorkflow"
+license = "lGPLv2"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+    "Programming Language :: Python",
+    "Topic :: Other/Nonlisted Topic",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+  ]
+keywords = ["spiff", "workflow", "bpmn", "engine"]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+future = "^0.18.2"
+configparser = "^4.0.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+pyhamcrest = "^2.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

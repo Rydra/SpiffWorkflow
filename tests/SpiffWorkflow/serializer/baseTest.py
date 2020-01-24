@@ -12,10 +12,10 @@ sys.path.insert(0, os.path.join(dirname, '..'))
 
 from uuid import UUID
 from PatternTest import run_workflow, PatternTest
-from SpiffWorkflow.serializer.base import Serializer
-from SpiffWorkflow.specs import WorkflowSpec
-from SpiffWorkflow import Workflow
-from SpiffWorkflow.serializer.exceptions import TaskSpecNotSupportedError, \
+from spiffworkflow.serializer.base import Serializer
+from spiffworkflow.specs import WorkflowSpec
+from spiffworkflow import Workflow
+from spiffworkflow.serializer.exceptions import TaskSpecNotSupportedError, \
     TaskNotSupportedError
 from data.spiff.workflow1 import TestWorkflowSpec
 

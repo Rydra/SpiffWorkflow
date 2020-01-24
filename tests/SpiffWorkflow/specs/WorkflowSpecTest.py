@@ -14,9 +14,9 @@ try:
     from util import track_workflow
 except ImportError as e:
     from tests.SpiffWorkflow.util import track_workflow
-from SpiffWorkflow import Workflow
-from SpiffWorkflow.specs import Join, WorkflowSpec
-from SpiffWorkflow.serializer.prettyxml import XmlSerializer
+from spiffworkflow import Workflow
+from spiffworkflow.specs import Join, WorkflowSpec
+from spiffworkflow.serializer.prettyxml import XmlSerializer
 
 serializer = XmlSerializer()
 data_file = 'data.pkl'

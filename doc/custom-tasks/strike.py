@@ -1,5 +1,5 @@
 from __future__ import print_function
-from SpiffWorkflow.specs import Simple
+from spiffworkflow.specs import Simple
 
 class NuclearStrike(Simple):
     def _on_complete_hook(self, my_task):

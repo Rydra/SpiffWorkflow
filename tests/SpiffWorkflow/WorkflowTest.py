@@ -7,11 +7,11 @@ import os
 data_dir = os.path.join(os.path.dirname(__file__), 'data')
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 
-from SpiffWorkflow import Workflow
-from SpiffWorkflow.specs import *
-from SpiffWorkflow.operators import *
-from SpiffWorkflow.task import Task
-from SpiffWorkflow.serializer.prettyxml import XmlSerializer
+from spiffworkflow import Workflow
+from spiffworkflow.specs import *
+from spiffworkflow.operators import *
+from spiffworkflow.task import Task
+from spiffworkflow.serializer.prettyxml import XmlSerializer
 
 
 class WorkflowTest(unittest.TestCase):
